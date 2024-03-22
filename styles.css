@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Mulish";
+  font-size: 1.6rem;
+  background-color: #312d64;
+  letter-spacing: 2;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #b52184;
+  font-weight: 800;
+  font-size: 3.2rem;
+}
+
+header p {
+  color: #312d64;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.astronauta {
+  width: 36.4rem;
+  height: 37rem;
+}
+
+.arrow-down {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Fim do Header */
+
+/* Sessão do meio */
+section {
+  margin-top: 8rem;
+  background-color: #312d64;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 6rem 4rem;
+  border-radius: 0.8rem;
+  padding: 2rem;
+}
+
+.card p {
+  font-weight: 400;
+}
+/* Fim da sessão do meio */
+
+/* Área de contato */
+.contato {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  background-color: #ffffff;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+input,
+textarea {
+  font-family: "Mulish";
+  padding: 2rem 1rem;
+  border: 1px solid #312d64;
+  border-radius: 2rem;
+  outline: none;
+}
+
+input[type="text"] {
+  background-image: url(./images/person.svg);  
+  background-repeat: no-repeat;
+  background-position: calc(1rem) center;
+  padding-left: 4rem;
+}
+
+input[type="email"] {
+  background-image: url(./images/mail.svg);
+  background-repeat: no-repeat;
+  background-position: calc(1rem) center;
+  padding-left: 4rem;
+}
+
+.button {
+  font-family: "Mulish";
+  font-size: 1.4rem;
+  background-color: #312d64;
+  color: #ffffff;
+  padding: 1.5rem .5rem;
+  margin-right: 60%;
+  border-radius: 2rem;
+}
+/* Fim da area de contato */
+
+footer {
+  font-size: 2rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 4rem 0rem;
+}
